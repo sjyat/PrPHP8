@@ -9,7 +9,6 @@
     $nombre="Sergio Yat";  //Declarar variable
     $cadena='Comillas Dobles "Jeremías"';   //Imprimir una cadena que contiene comillas
 
-    echo "Prueba de vs pus"
     
 ?>
 
@@ -20,7 +19,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practicas PHP V8</title>
 </head>
 <body>
     <h1><?php echo "Aprender Php: 80 videos/5 diarios=20 dias, Mi nombre es: " .$nombre;?></h1>
