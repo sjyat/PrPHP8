@@ -9,7 +9,7 @@
     $nombre="Sergio Yat";  //Declarar variable
     $cadena='Comillas Dobles "Jeremías"';   //Imprimir una cadena que contiene comillas
 
-
+    echo "Prueba de vs pus"
     
 ?>
 
