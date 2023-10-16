@@ -71,99 +71,10 @@
     echo "el valor de a es $valor que el valor de b <br>";
 
     echo "<hr>";
-    echo "elif, anidación <br>";
-
-    $a=13;
-
-    /*if ($a==1) {
-        echo "lunes <br>";
-    }elseif ($a==2) {
-        echo "Martes <br>";
-    }elseif ($a==3) {
-        echo "Miércoles <br>";
-    }elseif ($a==4) {
-        echo "Jueves <br>";
-    }elseif ($a==5) {
-        echo "Vierenes <br>";
-    }elseif ($a==6) {
-        echo "Sábado <br>";
-    }elseif ($a==7) {
-        echo "Domingo <br>";
-    }*/
     
-    echo "<hr>";
-    echo "Estructura de Selección Multiple, SWITCH-MATCH <br>";
-   /* switch ($a) {
-        case '1':
-            echo "lunes <br>";
-            break;
-        case '2':
-            echo "Martes <br>";
-            break;
-        case '3':
-            echo "Miércoles <br>";
-            break;
-        case '4':
-            echo "Jueves <br>";
-            break;
-        case '5':
-            echo "viernes <br>";
-            break;
-        case '6':
-            echo "Sábado <br>";
-            break;
-        case '7':
-            echo "Domingo <br>";
-            break;
-                
-        default:
-            echo "El número que ingreso es invalido <br>";
-            break;
-    }*/
+     ?>
 
-    echo match ($a) {
-         1=> "Lunes",
-         2=> "Martes",
-         3=> "Miércoles",
-         4=> "Jueves",
-         4=> "Viernes",
-         6=> "Sábado",
-         7=> "Domingo",
-         default => "Número invalido"
-    };
-    ?>
-
-<?php
-    echo "<hr>";
-    echo "Estructura While<br>";
-
-    $i=1;
-    while ($i <= 10) {
-        echo "Hola Mundo $i <br>";
-        $i++;
-    
-    }
-    echo "Has salido del bucle while";
-       
-    ?>
-
-    <?php
-
-    echo "<hr>";
-    echo "Estructura DO While<br>";
-
-    $j=9;
-
-    do {
-        echo "Hola Mundo <br>";
-        $j++;
-
-    } while ($j < 8);{
-        
-    }
-    echo "Has salido del bucle Do while";
-
-    ?>
+  
 
 <?php
 
